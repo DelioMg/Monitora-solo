@@ -26,6 +26,7 @@ A interconexão elétrica entre o ESP32, o circuito SMX e o sensor K6440 é conf
 ### Plataforma de Programação
 
 A plataforma utilizada para programar o ESP32 é o ESP-IDF (Espressif IoT Development Framework). O ESP-IDF fornece um ambiente de desenvolvimento robusto e uma vasta gama de bibliotecas e ferramentas para facilitar a programação e o desenvolvimento de aplicações IoT com o ESP32.
+Em que foi utilizado como base guia de programação ESP-IDF: https://docs.espressif.com/projects/esp-idf/en/v5.3/esp32/api-reference/peripherals/adc_oneshot.html
 
 ### Objetivo do Projeto
 
