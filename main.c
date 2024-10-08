@@ -117,9 +117,10 @@ void app_main(void) {
     wifi_init_sta();
 
     // Aguarda a conexão
-    vTaskDelay(5000 / portTICK_PERIOD_MS); // Aguarda 5 segundos para conexão
+    //vTaskDelay(5000 / portTICK_PERIOD_MS); // Aguarda 5 segundos para conexão
 
     // Valor a ser enviado na URL
-    const char *value = "100"; // Substitua pelo valor desejado
+    const char *value = "70"; // Substitua pelo valor desejado
     https_get_request(value);
+    
 }
