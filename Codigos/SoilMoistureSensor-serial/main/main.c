@@ -13,8 +13,8 @@
 #include "esp_adc/adc_oneshot.h"
 
 #define URL_BASE "https://supervisor-system.onrender.com/esp32/"
-#define WIFI_SSID "LabCCOMP"
-#define WIFI_PASS "##labccomp##!"
+#define WIFI_SSID "ssi"
+#define WIFI_PASS "pass"
 #define REQUEST_INTERVAL_MS (1000)
 
 static const char *TAG = "SoilMoistureSensor-serial";
